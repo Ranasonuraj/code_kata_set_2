@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 int main()
+    
 {
     int num, i, rev;
     cin>>num;
@@ -12,7 +13,9 @@ int main()
     }
     if(rev == i)
        cout << "yes";
+    
     else
+        
         cout << "no";
    return 0;
 }
