@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 int main()
+    
 {
     unsigned int n;
     unsigned long long factorial = 1;
@@ -12,5 +13,6 @@ int main()
     cout << factorial;
 
     return 0;
+    
 }
 
