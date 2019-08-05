@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 int main()
+  
 {
   int n, i;
   bool isPrime = true;
@@ -8,6 +9,7 @@ int main()
   for(i = 2; i <= n / 2; ++i)
   {
       if(n % i == 0)
+        
       {
           isPrime = false;
           break;
@@ -17,5 +19,6 @@ int main()
       cout << "yes";
   else
       cout << "no";
+  
   return 0;
 }
