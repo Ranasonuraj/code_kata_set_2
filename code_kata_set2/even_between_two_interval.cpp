@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 int main()
+    
 {
     int num,in,en;
     cin>>in>>en;
@@ -12,5 +13,6 @@ int main()
             cout <<num<<" ";
         }
         }
+    
     return 0;
 }
