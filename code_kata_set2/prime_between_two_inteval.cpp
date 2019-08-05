@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int main()
+int main()    
 {
     int n,from,to,count=0,j=1, k;
     cin>>from>>to;
@@ -20,6 +20,7 @@ int main()
             {
                 cout<<n<<" ";
             }
+        
         count=0;
     }
 
