@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 int main()
+  
 {
   int n, num, rem, sum = 0;
   cin >> n;
@@ -16,4 +17,5 @@ int main()
   else
     cout << "no";
   return 0;
+  
 }
